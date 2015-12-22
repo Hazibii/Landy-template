@@ -1,6 +1,7 @@
 body {
     line-height: 1.8;
     color: #f5f6f7;
+    background-color: #2E382E;
 }
 
 h1,
@@ -40,17 +41,26 @@ section{
   padding: 100px 0;
 
 }
-no-padding {
+.no-padding {
     padding: 0;
+}
+section .col-md-4{
+  padding-left: 0;
+  padding-right:0;
 }
 .margin {
     margin-bottom: 45px;
+}
+header img{
+  margin-top: 25px;
 }
 .header-img {
   background: url('../img/img3.jpeg') no-repeat center center fixed;
   color:#fff;
   background-size:cover;
+  opacity: 0.8;
 }
+
 .aboutsec {
     background-color: #474e5d; /* Dark Blue */
     color: #ffffff;
@@ -96,7 +106,7 @@ no-padding {
     text-align: center;
     color: #fff;
     opacity: 0;
-    background: rgba(240,95,64,.9);
+    background: rgba(63,136,197,.9);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -149,5 +159,3 @@ footer {
 
 footer .col-md-12{
     background-color:#585858;
-
-}
