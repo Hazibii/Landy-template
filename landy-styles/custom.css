@@ -22,6 +22,22 @@ h6 {
     letter-spacing: 5px;
 }
 
+.navbar-default{
+    background-color: #2E382E;
+}
+
+.navbar-default .navbar-nav > li > a{
+    color: #fff;
+}
+
+.navbar-default .navbar-brand {
+     color: #fff;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #9EE493 !important;
+}
+
 .navbar-nav li a:hover {
     color: #9EE493 !important;
 }
@@ -72,8 +88,8 @@ header img {
 }
 
 .aboutsec {
-    background-color: #2E382E;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
     height: 300px;
 }
 
@@ -261,3 +277,9 @@ header img {
 .bot-footer {
     background-color: #585858;
 }
+
+.maps{
+    width: 100%;
+    height: auto;
+}
+
